@@ -1,11 +1,12 @@
 body{
   font-size: 10px;
+  background: rgb(149, 194,215);
 }
 a{
   text-decoration: none;
 }
 .nba-imge{
-  display: block;
+  display: block; /*这一行主要是取消图片与文本之间的白色间距*/
   width: 100%;
 }
 .nba-title {
@@ -14,4 +15,8 @@ a{
   padding: 4px 10px;
   background: rgb(255,0,0);
   color: rgb(202,238,255);
+}
+.nba-item{
+  border: 1px solid rgb(100%,100%,100%);
+  border: 1px solid rgba(100%, 100%,100%, 0.8);
 }
