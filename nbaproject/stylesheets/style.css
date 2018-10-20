@@ -1,0 +1,17 @@
+body{
+  font-size: 10px;
+}
+a{
+  text-decoration: none;
+}
+.nba-imge{
+  display: block;
+  width: 100%;
+}
+.nba-title {
+  display: block;
+  margin: auto;
+  padding: 4px 10px;
+  background: rgb(255,0,0);
+  color: rgb(202,238,255);
+}
