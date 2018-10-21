@@ -17,6 +17,13 @@ a{
   color: rgb(202,238,255);
 }
 .nba-item{
+  display: block;
   border: 1px solid rgb(100%,100%,100%);
   border: 1px solid rgba(100%, 100%,100%, 0.8);
+}
+.nba-item + .nba-item{
+  margin-top: 10px
+}
+.nba-list{
+  list-style: none;
 }
