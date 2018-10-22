@@ -1,0 +1,36 @@
+body {
+    font-size: 30px;
+    background: rgb(149, 194, 215);
+}
+.log-text{
+    background: beige;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.nba-list{
+    padding: 50px;
+    list-style: none;
+}
+.nba-item{
+    display:block;
+}
+a {
+    text-decoration: none;
+}
+.nba-title{
+    display: block;
+    margin: auto;
+    padding: 4px 10px;
+    background: rgb(222, 102, 55);
+    color: rgb(202, 238, 255);
+}
+
+
+.nba-img{
+    width:30%;
+    display: block;
+}
+.detail-img{
+    width:100%
+}

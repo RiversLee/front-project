@@ -1,10 +1,17 @@
+.logo-text {
+  background: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 37px;
+}
 body{
-  font-size: 10px;
+  font-size: 30px;
   background: rgb(149, 194,215);
 }
 a{
   text-decoration: none;
 }
+
 .nba-imge{
   display: block; /*这一行主要是取消图片与文本之间的白色间距*/
   width: 100%;
@@ -25,5 +32,6 @@ a{
   margin-top: 10px
 }
 .nba-list{
+  padding: 50px;
   list-style: none;
 }
