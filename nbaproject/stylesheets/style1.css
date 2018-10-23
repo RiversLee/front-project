@@ -70,13 +70,27 @@ a {
 }
 .detail-img-title{
     position: absolute;
-    bottom: -16px;
+    bottom: initial;
     left: 4px;
     font-family: 'Courier New', Courier, monospace;
     color:white;
     text-shadow: rgba(0,0,0, 0.9) 1px 2px 9px; /*有些透明的黑色，阴影向右偏移1px，向下偏移2px（负值会使阴影向左或向上偏移），最后9px是模糊半径*/
     font-size: 40px;
 }
-.media all and (min-width: 768px){
-
+@media all and (min-width: 768px){
+    .main-content{
+        flex-direction: row;
+        overflow: hidden;
+    }
+    .nba-list{
+        flex-direction: column;
+        order: 0;
+        
+    }
+    .nba-item{
+        max-width: 260px;
+    }
+    .nba-item + .nba-item{
+        margin-top: 20px;
+    }
 }
