@@ -37,7 +37,10 @@ body {
     min-width: 100px;
     max-width: 100px;
     border: 1px solid rgba(100%,100%,100%, 0.8);
-
+    /*transform: scale(1.2);*/
+}
+.nba-item:hover{     /*伪类*/
+    transform: scale(1.2);
 }
 a {
     text-decoration: none;
